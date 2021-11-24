@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+/* TopBanner componenet */
+.topBanner{
+ display: flex;
+ flex-direction: row;
+  flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
+justify-content: space-between;
+}
+.khar{
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+.banner{
+  width:100%;
+  height: 350px;
+  margin: 5px 5px 5px 5px;
+  position:  relative;
+text-align: right;
+}
+.banner-img{
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+ 
+position: absolute;
+ 
+top:0;
+right: 0;
+bottom: 0;
+left: 0;
+
+}
+
+.banner img {
+  position: absolute;
+  transition: opacity .5s ease-in;
+  top:0;
+  right: 0;
+}
+
+.banner img + .banner img { opacity: 0; }
+
+
+.imgdiv{
+position: relative;
+width: 100%;
+float: left;
+height: 100%;
+margin: 5px 5px 5px 5px;
+border-radius: 16px;
+}
+
+.my-carousel{
+  width: 95%;
+  padding: 0px;
+  background-color: rgb(182, 251, 117);
+  margin: 40px auto;
+  
+}
+.car-col{
+  height: auto;
+}
